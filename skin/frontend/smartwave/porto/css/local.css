@@ -1254,7 +1254,7 @@ div.star-rating a{transition:initial}
 
 /* Regular price */
 .regular-price{color:#444}
-.regular-price .price{font-weight:600;font-size:15px;color:#444;display:inline-block;vertical-align:middle;line-height:1}
+.regular-price .price{font-weight:600;font-size:15	px;color:#444;display:inline-block;vertical-align:middle;line-height:1}
 
 /* Old price */
 .old-price{margin:0;display:inline-block;vertical-align:middle}
@@ -3371,3 +3371,120 @@ a.search-icon{display:inline-block;width:25px;text-align:center}
 /***********************HOME PAGE CONTENT CSS END **********************/
 
 
+/*************************e-invite css Start *********************/
+@font-face {
+    font-family: opensans;
+    src: url(OpenSans-Regular.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: opensans;
+}
+.mt-50 {
+	margin-top: 50px;
+}
+.mb-50 {
+	margin-bottom: 50px;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+.clear {
+	clear: both;
+}
+
+.main-heading {
+	position: relative;
+}
+
+.main-heading h2 {
+	font-size: 26px;
+	text-align: center;
+	font-weight: 100;
+	width: 260px;
+	left: 50%;
+	margin-left: -130px;
+	position: relative;
+	z-index: 1;
+	color: #ff4aaf;
+	background-color: #fff;	
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.main-heading span {
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%;
+}
+
+
+.section-small {
+	width: 1170px;
+	margin: auto;
+}
+
+.highlight {
+	width: 23%;
+	margin: 20px 5%;
+	float: left;
+	text-align: center;
+	font-family: opensans;
+}
+.highlight h4 {
+	margin-top: 10px;
+}
+.highlight p {
+	font-size: 13px;
+	columns: #999;
+	line-height: 150%;
+	margin-top: 10px
+}
+
+.features-list {
+	list-style-type: none;	
+}
+.features-list li {
+	display: inline-block;
+	width: 40%;
+	padding-left: 50px;
+	margin-top: 20px
+}
+.features-list li:nth-child(odd) {
+	margin-right:100px;
+}
+.features-list li h5, .features-list li p {
+	display: inline-block;
+}
+.features-list li h5 {
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.features-list li p {
+	font-size: 13px;
+	color:#999;
+}
+.features-list li img, .features-list li .feature-content {
+	float: left;
+}
+.features-list li .feature-content {
+	float: left;
+	width: 84%;
+	margin-left:20px;	
+}
+.sample-section img {
+	margin :  17px;
+}
+
+
+
+
+
+/************************e-invite css end ************************/
